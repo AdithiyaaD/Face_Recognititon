@@ -1,1 +1,2 @@
-# Face_Recognititon
+# Face Recognititon
+This project is a real-time face detection system built using a combination of OpenCV, TensorFlow (Keras), and NumPy. The core of the application relies on a pre-trained deep learning model (keras_model.h5) that classifies camera input frames into categories specified in a labels.txt file. The live video feed is captured using the system's webcam via OpenCV, resized and normalized to fit the model’s input specifications (224x224 pixels). The model then predicts whether a human face is present, and overlays corresponding messages like “human face detected” onto the video feed. The system is efficient and lightweight, making it ideal for beginner-level AI-based computer vision applications.
